@@ -1,0 +1,123 @@
+{
+  "mod_elements": [
+    {
+      "name": "Strawberry",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_fruits_two/models/item/strawberry.json",
+          "src/main/java/net/mcreator/morefruitstwo/item/StrawberryItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MoreFuits2",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "more_fuits_2",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GoldenStrawberryDangWanJiaWanChengShiYongWuPinShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_strawberry_dang_wan_jia_wan_cheng_shi_yong_wu_pin_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/morefruitstwo/procedures/GoldenStrawberryDangWanJiaWanChengShiYongWuPinShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldenStrawberry",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_strawberry",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_fruits_two/models/item/golden_strawberry.json",
+          "src/main/java/net/mcreator/morefruitstwo/item/GoldenStrawberryItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StrToGol",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "str_to_gol",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_fruits_two/recipes/str_to_gol.json"
+        ]
+      }
+    },
+    {
+      "name": "Str",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "str",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_fruits_two/worldgen/configured_feature/str.json",
+          "src/main/resources/assets/more_fruits_two/models/item/str.json",
+          "src/main/resources/data/more_fruits_two/worldgen/placed_feature/str.json",
+          "src/main/resources/assets/more_fruits_two/models/block/str.json",
+          "src/main/resources/data/more_fruits_two/loot_tables/blocks/str.json",
+          "src/main/java/net/mcreator/morefruitstwo/block/StrBlock.java",
+          "src/main/resources/data/more_fruits_two/forge/biome_modifier/str_biome_modifier.json",
+          "src/main/resources/assets/more_fruits_two/blockstates/str.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.more_fruits_two.more_fuits_2": "More Fuits 2",
+      "block.more_fruits_two.str": "Strawberry Plants",
+      "item.more_fruits_two.golden_strawberry": "Golden Strawberry",
+      "item.more_fruits_two.strawberry": "Strawberry"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "more_fruits_two",
+    "modName": "More Fruits 2",
+    "version": "1.0.0",
+    "description": "Another auther to add more fruits into the game ",
+    "author": "hgwwtg, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.morefruitstwo"
+  },
+  "mcreatorVersion": 202400232117
+}
